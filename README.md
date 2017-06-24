@@ -5,10 +5,10 @@ which, if all goes as planned, returns an object with an important message of wi
 
 ## Installation / Setup
 
-1. Get an AWS account (I recommend the AWS Lambda free tier)
+1. Get an AWS account (I recommend the [AWS Free Tier](https://aws.amazon.com/free/))
 2. Setup a [new admin user](https://serverless.com/framework/docs/providers/aws/guide/credentials#creating-aws-access-keys), to get an API key and a secret.
 3. Install the [serverless cli](https://serverless.com/framework/docs/providers/aws/guide/installation/)
-4. [configure it to use the admin user](https://serverless.com/framework/docs/providers/aws/guide/credentials#setup-with-serverless-config-credentials-command).
+4. [Configure it to use the admin user](https://serverless.com/framework/docs/providers/aws/guide/credentials#setup-with-serverless-config-credentials-command).
 5. Clone this repo, cd into it and `npm i` to install the dependencies
 6. [Deploy](https://serverless.com/framework/docs/providers/aws/guide/deploying/) the thing as-is, typing `serverless deploy`.
 
