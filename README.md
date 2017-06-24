@@ -26,7 +26,7 @@ The response, if all went well, should look like this:
 
 ```json
 {
-  wisdom: "Chuck Norris once ate a whole cake before his friends could tell him there was a stripper in it."
+  "wisdom": "Chuck Norris once ate a whole cake before his friends could tell him there was a stripper in it."
 }
 ```
 
