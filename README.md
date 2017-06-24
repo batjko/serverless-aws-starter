@@ -1,13 +1,13 @@
 # Serverless Example w/ Webpack
 
-Simple starter project, setting up a single REST `/healthCheck` endpoint,
-which, if all goes as planned, returns an object with an important message of wisdom for you.
+Simple starter project setting up a single `/healthCheck` API endpoint that is resolved by a small but incredibly important Lambda function,
+which returns a status 200 and an object with a random Chuck Norris fact.
 
 ## Installation / Setup
 
-1. Get an AWS account (I recommend the [AWS Free Tier](https://aws.amazon.com/free/))
-2. Setup a [new admin user](https://serverless.com/framework/docs/providers/aws/guide/credentials#creating-aws-access-keys), to get an API key and a secret.
-3. Install the [serverless cli](https://serverless.com/framework/docs/providers/aws/guide/installation/)
+1. Get an AWS account (I recommend the [Free Tier](https://aws.amazon.com/free/))
+2. Set up a [new admin user](https://serverless.com/framework/docs/providers/aws/guide/credentials#creating-aws-access-keys), to get an API key and a secret.
+3. Install the [serverless CLI](https://serverless.com/framework/docs/providers/aws/guide/installation/)
 4. [Configure it to use the admin user](https://serverless.com/framework/docs/providers/aws/guide/credentials#setup-with-serverless-config-credentials-command).
 5. Clone this repo, cd into it and `npm i` to install the dependencies
 6. [Deploy](https://serverless.com/framework/docs/providers/aws/guide/deploying/) the thing as-is, typing `serverless deploy`.
